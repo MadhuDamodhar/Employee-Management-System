@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SERVER_URL = "https://employee-management-system-two-beta.vercel.app"; // Corrected URL
+const SERVER_URL = "https://employee-management-system-two-beta.vercel.app/"; // Corrected URL
 const BASE_URL = `${SERVER_URL}/api/v1/employees`;
 
 class Service {
