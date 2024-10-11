@@ -1,0 +1,28 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+border: 1px solid rgba(0, 0, 0, 0.062);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#nav-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+ 
+}
+#nav-items span{
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+.active{
+  color: brown;
+}
+svg{
+border-right: 1px solid rgba(0, 0, 0, 0.289);
+padding-right:10px;
+}
