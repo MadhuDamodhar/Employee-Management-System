@@ -44,7 +44,7 @@ function Home() {
           </tr>
         </thead>
         <tbody className='record'>
-  {empList && empList.map((employee) => (
+  {empList ? empList.map((employee) => (
     <tr key={employee.id}>
       <td className='data' data-label="Name">{employee.empName}</td>
       <td className='data' data-label="Address">{employee.address}</td>
@@ -56,7 +56,7 @@ function Home() {
         <Link onClick={()=>{deleteEmp(employee.id)}} className='btn btn-danger ms-2' >Delete</Link>
       </td>
     </tr>
-  ))}
+  )):<p>No Records</p>}
 </tbody>
 
       </table>
