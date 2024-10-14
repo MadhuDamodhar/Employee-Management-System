@@ -1,5 +1,5 @@
 import axios from "axios";
-const SERVER_URL = "http://35.154.210.50:9191";
+const SERVER_URL = "http://localhost:9191";
 
 
 
