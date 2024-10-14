@@ -1,5 +1,7 @@
 import axios from "axios";
-const SERVER_URL = "https://65.1.84.104";
+const SERVER_URL = "http://35.154.210.50:9191";
+
+
 
 const BASE_URL = `${SERVER_URL}/api/v1/employees`;
 
